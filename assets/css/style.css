@@ -1,0 +1,71 @@
+img {
+    width: 4cm;
+    height: 4cm;
+    margin-bottom: 0.7cm;
+    border-radius: 50%;
+    border: 0.15cm solid white;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+h1 { 
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: 300; 
+  font-size: 1.2cm;
+  transform:scale(1,1.15); 
+  margin-bottom: 0.2cm;
+  margin-top: 0.2cm;
+  text-transform: uppercase; 
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.smallText, 
+.smallText span, 
+.smallText p, 
+.smallText a {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: justify;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.yearsOfExperience {
+  width: 1.6cm;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.alignleft {
+  text-align: left !important;
+  width: 1cm;
+}
+
+.alignright {
+  text-align: right !important;
+  width: 0.6cm;
+  margin-right: 0.1cm
+}
+
+.projectName span {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.jobPosition {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.workExperience>ul>li {
+  margin: 0;
+  padding-bottom: 0.5cm;
+  padding-left: 0.5cm;
+}
